@@ -1,0 +1,154 @@
+.banner {
+    background-color: black;
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px gray;
+    text-decoration-color: white;
+    text-decoration: none;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.banner-mobile {
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px gray;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bigboy {
+    font-size: 65px;
+}
+
+.littleguy {
+    font-size: 30px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 35px;
+    text-shadow: 1px 1px aquamarine;
+}
+
+.info {
+    border: solid 1px;
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+    text-indent: 30px;
+    box-shadow: 5px 5px aquamarine;
+}
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%;
+    border-radius: 25px;
+} 
+
+.embed-container iframe { 
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: scroll;
+    border-radius: 25px;
+}
+
+.pdf {
+    margin-right: auto;
+    margin-left: auto;
+    width: 95px;
+    padding-top: 20px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 30%;
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+
+footer {
+	clear:both;
+    text-align: center;
+}
+
+@media all and (min-width:1400px) {
+    
+.banner-mobile {
+    display:none;    
+}
+
+}
+
+@media all and (min-width:680px) and (max-width:1399px) {
+
+.banner-mobile {
+    display:none;
+}    
+
+}
+
+/* PHONE */
+@media all and (max-width:680px) {
+    
+.banner {
+    display: none;
+}
+
+.button {
+    display: none;
+}
+    
+.pdf {
+    padding-top: 0px;
+}
+
+}
